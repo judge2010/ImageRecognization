@@ -1,0 +1,64 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    
+    <center>
+      <h1 class="btn btn-default" id="heading">Image recognition</h1>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+      <h2>Ipad</h2>
+      <hr>
+      <h2>Glasses</h2>
+      <hr>
+      <h2>water bottle</h2>
+      <hr>
+      <h2>Pencil Box</h2>
+      <hr>
+      <br><br><br>
+      <h1>Webcam View - </h1>
+
+      <br><br>
+
+    <div id="photo_review"></div>
+
+      <br><br>
+
+      <div id="photo"></div>
+
+      <br><br>
+      <button id="take_photo" class="btn btn-success" onclick="tphoto()">Take PHOTO</button>
+      <br><br><br>
+      <button id="identify" class="btn btn-success" onclick="Idenphhoto()">IDENTIFY</button>
+       <br>
+       <br>
+
+      <p style="font-size: 22px;">Object :  </p>
+      <br>
+      <p style="font-size: 22px;">Accuracy :  </p>
+      <br><br><br>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
